@@ -1,6 +1,7 @@
 <html>
 <head>
-<meta charset="utf-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Matilde Pinho</title>
   <style>
     body {
@@ -12,15 +13,23 @@
 
       -webkit-flex-flow: column;
       align-items: center;
+      -webkit-align-items: center;
       justify-content: center;
+      -webkit-justify-content: center;
       font-family: 'futura';
     }
     .pre {
-      font-size: 32px;
+      font-size: 2em;
     }
     .name {
       /*text-transform: uppercase;*/
-      font-size: 128px;
+      font-size: 8em;
+    }
+
+    @media all and (max-width: 512px) {
+      body {
+        font-size: 10px;
+      }
     }
   </style>
 </head>
